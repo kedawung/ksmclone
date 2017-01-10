@@ -5,7 +5,7 @@ package server
 var defaultSearchConfig = []byte(`{
 	"kat": {
 		"name": "Kickass Torrents",
-		"url": "https://kat.how/usearch/{{query}}/{{page:1}}/?field=seeders&sorder=desc",
+		"url": "https://kat.how/search.php?q={{query}}/{{page:1}}/?field=seeders&sorder=desc",
 		"list": "#mainSearchTable table tr[id]",
 		"result": {
 			"name":".cellMainLink",
@@ -31,7 +31,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"abb": {
 		"name": "The Audiobook Bay",
-		"url": "http://audiobookbay.me/page/{{page:1}}?s={{query}}",
+		"url": "http://audiobookbay.me/page/{{page:1}}/?s={{query}}",
 		"list": "#content > div",
 		"result": {
 			"name":["div.postTitle > h2 > a","@title"],

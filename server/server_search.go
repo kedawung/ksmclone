@@ -31,7 +31,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"abb": {
 		"name": "The Audiobook Bay",
-		"url": "http://audiobookbay.co/page/{{page:1}}?s={{query}}",
+		"url": "http://audiobookbay.me/page/{{page:1}}?s={{query}}",
 		"list": "#content > div",
 		"result": {
 			"name":["div.postTitle > h2 > a","@title"],
@@ -42,7 +42,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"abb-item": {
 		"name": "The Audiobook Bay (Item)",
-		"url": "http://audiobookbay.co{{path}}",
+		"url": "http://audiobookbay.me{{path}}",
 		"result": {
 			"infohash": "/td>([a-f0-9]+)</",
 			"tracker": "table tr td:nth-child(2)"

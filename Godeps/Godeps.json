@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/kedawung/ksmclone",
-	"GoVersion": "go1.5.3",
+	"GoVersion": "go1.7.5",
 	"Deps": [
 		{
 			"ImportPath": "github.com/PuerkitoBio/goquery",

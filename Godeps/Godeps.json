@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/kosim21/kosim-torrent",
+	"ImportPath": "github.com/kedawung/ksmclone",
 	"GoVersion": "go1.5.3",
 	"Deps": [
 		{

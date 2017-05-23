@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kosim21/kosim-torrent/engine"
-	"github.com/kosim21/kosim-torrent/static"
+	"github.com/kedawung/ksmclone/engine"
+	"github.com/kedawung/ksmclone/static"
 	"github.com/jpillora/go-realtime"
 	"github.com/jpillora/requestlog"
 	"github.com/jpillora/scraper/scraper"
@@ -117,7 +117,7 @@ func (s *Server) Run(version string) error {
 		}
 	}
 	if c.IncomingPort <= 0 || c.IncomingPort >= 65535 {
-		c.IncomingPort = 10011
+		c.IncomingPort = 19911
 	}
 	if err := s.reconfigure(c); err != nil {
 		return fmt.Errorf("initial configure failed: %s", err)

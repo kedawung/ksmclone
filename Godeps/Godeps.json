@@ -114,6 +114,7 @@
 		{
 			"ImportPath": "golang.org/x/net/html",
 			"Rev": "318395d8b12f5dd0f1b7cd0fbb95195f49acb0f9"
+		},
 		{
 			"ImportPath": "github.com/PuerkitoBio/goquery",
 			"Comment": "v1.0.1-2-g152b1a2",
@@ -360,4 +361,3 @@
 		}
 	]
 }
-	  

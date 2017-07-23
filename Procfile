@@ -1,1 +1,1 @@
-web: ksmclone
+web: node server.js
